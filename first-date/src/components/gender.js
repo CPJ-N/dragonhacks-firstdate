@@ -11,9 +11,13 @@ class Gender extends React.Component {
             isMale: false
         }
 
+        
 
     }
 
+    
+
+    
 
     changeGender() {
         let { isMale } = this.state;
@@ -22,6 +26,7 @@ class Gender extends React.Component {
         } else {
             this.setState({ isMale: true })
         }
+        this.props.getUpdatedGender(this.state);
     }
 
     render() {
