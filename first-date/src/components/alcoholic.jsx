@@ -31,17 +31,14 @@ class Alcoholic extends React.Component {
         if (isalc) {
             return (
                 <div>
-                    Non Alcoholic <br/>
+                    Non Alcohol <br/>
                     <button onClick={this.changeAlcoholic}> Change to Alcoholic</button>
-                    <li class="nav-item">
-            <a class="nav-link" href="age.js">Contact Us</a>
-          </li>
                 </div>
             )
         } else {
             return (
                 <div>
-                    Alcoholic <br/>
+                    Alcohol <br/>
                     <button onClick={this.changeAlcoholic}> Change to Non Alcoholic</button>
                 </div>
  

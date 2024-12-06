@@ -1,4 +1,5 @@
 import React from 'react';
+import {getUpdatedFoodie} from './plan'
 const autoBind = require('auto-bind');
 
 class Per extends React.Component {

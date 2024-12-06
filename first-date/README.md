@@ -1,3 +1,7 @@
+FirstDate
+
+Allows you to schedule your first date
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

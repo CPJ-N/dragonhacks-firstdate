@@ -35,7 +35,7 @@ class Gender extends React.Component {
         if (isMale) {
             return (
                 <div>
-                    Hello this is a male <br/>
+                    Your Date is a Male <br/>
                     <button onClick={this.changeGender}> Change Gender</button>
 
                 </div>
@@ -43,7 +43,7 @@ class Gender extends React.Component {
         } else {
             return (
                 <div>
-                    Hello this is a female <br/>
+                    Your Date is a Female <br/>
                     <button onClick={this.changeGender}> Change Gender</button>
 
                 </div>

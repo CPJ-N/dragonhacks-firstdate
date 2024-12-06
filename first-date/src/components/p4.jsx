@@ -32,7 +32,7 @@ class Per3 extends React.Component {
                 <div>
                   
                     
-                   Does your date likes to go to Chinease! <br/>
+                   Your date likes to go to Chinese restaurant! <br/>
                    <button onClick={this.changeper1}> yes</button>
                 </div>
                 
@@ -43,7 +43,7 @@ class Per3 extends React.Component {
                 <div>
                     
                     
-                    Does your date disikes to go to Chinease! <br/>
+                    Your date disikes to go to Chinese restaurant! <br/>
                     <button onClick={this.changeper1}> No</button>
 
                 </div>

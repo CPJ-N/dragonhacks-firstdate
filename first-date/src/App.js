@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>First Date</h1>
+        <h1><i>First Date</i></h1>
         <img src="https://cdn.pixabay.com/photo/2017/04/03/15/52/love-you-2198772__340.png" className="App-logo" alt="logo" /> 
         <p>
           Plan Your date!
